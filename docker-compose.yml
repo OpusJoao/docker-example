@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  docker-example:
+    container_name: 'docker-exampe'
+    build: .
+    ports:
+      - "80:3000"
